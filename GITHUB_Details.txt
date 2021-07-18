@@ -1,0 +1,23 @@
+Username - CS7051
+Pwd - PriyuCs@143
+
+PUSH to GITHUB
+--------------
+
+#Commands to run in GIT BASH to push to GIT HUB
+
+$git config --global user.name chiranjibswain
+$git config --global user.email "chiranjibswain.st2020@gmail.com"
+$touch .gitingore --> Create file with anem gitingore. In this file we can mention which files we do not want to push to GIT.
+$git init -->  Initialzing GIT Repo
+$git add . --> All files excluding in the gitingore file will come to staging area.
+$git commit -m "Initial commit" -->  Commit files are ready.
+$git status --> Just to see the commit status (To see working tree clean)
+$git push origin master --> 
+$ssh-keygen -t rsa -b 4096 -C "chiranjibswain.st2020@gmail.com" --> This command will generate SSH Key  (To get this command search with "generate ssh key github")
+
+cat /c/Users/DELL/.ssh/id_rsa.pub --> Cat command will open the file from the mentioned path
+
+Get the key from <id_rsa.pub>
+$git remote add origin git@github.com:CS7051/ReactWebPorject.git --> This will push the project to Git HUB.
+
